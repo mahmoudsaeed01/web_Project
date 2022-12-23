@@ -1,0 +1,230 @@
+* {
+  font-family: "Poppins", sans-serif;
+  /* Because the page giving a defualt margin and badding */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #0c0808;
+  opacity: 95%;
+  width: 100%;
+  color: #ebb700;
+  font-size: 1.3em;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  padding: 15px;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding-right: 50px;
+  transition: 0.7s ease;
+}
+.navigation a:hover {
+  color: #3a6cf4;
+  transform: scale(1, 1);
+  /* font-size: 1.5em; */
+}
+section {
+  padding: 200px 100px;
+}
+.main {
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("images/background-gym.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* display: flex;
+   justify-items: center; */
+}
+.main h2 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.main h2 span {
+  color: #ebb700;
+  font-size: 2.2em;
+  padding-top: 100px;
+  font-weight: 700;
+}
+.main h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.btn {
+  background-color: #0c0808;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  transition: 0.7s ease;
+}
+.btn:hover {
+  color: #3a6cf4;
+  transform: scale(1.1);
+}
+.icons a {
+  color: white;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+.projects{
+  background-color: white;
+}
+.sports{
+  background-color:white;
+
+}
+.title{
+  font-size: 3em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.title span{
+  font-size: 4;
+  font-weight: 600;
+  color: #ebb700;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.content .card{
+  background-color: #34373A;
+  width: 350px;
+  min-height: 6em;
+  color: #ebb700;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  overflow: hidden;
+  margin: 15px;
+   /* o"no shadow top or buttom" 5"the direction of shadow" 25"the distribution of the shadow" 15%"The Opacity of shadow"*/
+   border: solid white 1px;
+   border-radius: 10px;
+   transition: 0.7s ease;
+}
+.content .card:hover{
+  transform: scale(1.1);
+  opacity:0.95 ;
+}
+.card .sport-type {
+  padding: 10px;
+  
+}
+.sport-type a {
+  text-decoration: none;
+  color: #ebb700;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.sports-images img{
+  width: 100%;
+}
+.trainers{
+  background-color: #09141E;
+}
+.trainers .title{
+  color: #ebb700;
+}
+.champions .title{
+  margin-bottom: 150px;
+  
+}
+.champions .card{
+  margin: 0%;
+  width: 400px;
+  max-height:300px ;
+  border-radius: 0px;
+  transition: none;
+  background-color: white;
+}
+.champions .card:hover{
+  transform: none;
+  opacity: 1;
+}
+.champions .card .info{
+  padding: 30px;
+}
+.project-footer{
+  background-color: black;
+  
+}
+.project-footer .fo{
+  display: flex;
+  justify-content: space-between;
+  /* padding:top right buttom left "clock-wise" */
+  /* padding: 0 15px 0 0; */
+  padding: 30px;
+}
+.project-footer p{
+  color: #f0f0f0;
+}
+.project-footer span{
+  color: #3a6cf4;
+}
+.project-footer .icons a{
+  padding: 10px;
+  font-size: 1.5em
+}
+#page1{
+  background-image: url("images/Ahmed\ ali.jpg");
+}
+
+.cat p{
+  margin-top:40px ;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.881);
+ 
+}
+/* #cha{
+  background-color: #09141E;
+} */
+/* .infoK{
+  background-color: #bac4cd;
+} */
+.infoK{
+  background-color: #09141E;
+  
+}
+.infoK .title{
+  color: #ebb700;
+}
+#page1{
+  background-image: url("images/Ahmed\ ali.jpg");
+}#page2{
+  background-image: url("images/maray.jpg");
+}#page3{
+  background-image: url("images/ssu.jpg");
+}#page4{
+  background-image: url("images/asmaa.jpg");
+}#page5{
+  background-image: url("images/kareem\ ali.jpg");
+}#page6{
+  background-image: url("images/ahmed\ mansour.jpg");
+}
